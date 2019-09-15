@@ -1,0 +1,26 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Simple Chat app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tharindusenadeera/chat-app.git"
+  },
+  "author": "Tharindu Senadeera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tharindusenadeera/chat-app/issues"
+  },
+  "homepage": "https://github.com/tharindusenadeera/chat-app#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "socket.io": "^2.2.0"
+  }
+}
