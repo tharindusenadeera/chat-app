@@ -11,7 +11,7 @@ app.use(express.static('public'))
 
 //routes
 app.route('/', (req,res)  =>{
-    res.send('Hello World!!!')
+    res.render('views/index')
 })
 
 //listing on server
